@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+</head>
+<body>
+    <form action="/scan" method="POST">
+    <label for="QRText">Type text which need to be displayed while scanning</label>
+    <input name="input" id="QRText" placeholder="URL" type="url" autocomplete="off" required>
+    <button type="submit">Scan QR Code</button> 
+
+    </form>
+    
+</body>
+</html>
